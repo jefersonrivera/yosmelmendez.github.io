@@ -23,3 +23,7 @@ body {
 .z {
   z-index: 1;
 }
+
+.text-opacity-50 {
+  opacity: 50;
+}
