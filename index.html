@@ -34,9 +34,11 @@
           >
             <div class="navbar-nav">
               <a class="nav-link" href="#sobremi">Sobre mi</a>
-              <a class="nav-link" aria-current="page" href="#">Portafolio</a>
-              <a class="nav-link" href="#">Educación</a>
-              <a class="nav-link" href="#">Experiencia</a>
+              <a class="nav-link" aria-current="page" href="#portafolio"
+                >Portafolio</a
+              >
+              <a class="nav-link" href="#educacion">Educación</a>
+              <a class="nav-link" href="#experiencia">Experiencia</a>
             </div>
           </div>
         </div>
@@ -47,7 +49,9 @@
         class="d-flex align-items-center justify-content-center bg-image"
         id="sobremi"
       >
-        <div class="text-center text-light w-50 fs-5">
+        <div
+          class="text-center text-light w-50 fs-5 border rounded bg-dark bg-opacity-25"
+        >
           <h1>Yosmel Vaca Méndez</h1>
           <p class="pt-3">
             Store Manager con amplia experiencia en la administración de
@@ -79,66 +83,96 @@
           </p>
         </div>
       </div>
-      <div class="text-center pt-5">
-        <h3>Portafolio</h3>
-        <div class="d-flex pt-3">
-          <div class="card" style="width: 18rem">
+      <div class="container pt-5" id="portafolio">
+        <h3 class="text-center">Portafolio</h3>
+        <div class="row d-flex pt-3 justify-content-center">
+          <div class="card col-sm-4 m-4 g-0" style="width: 18rem">
             <img src="./imgs/1.JPG" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <h5 class="card-title">Mi Curriculum en HTML</h5>
+
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-          <div class="card" style="width: 18rem">
+          <div class="card col-sm-4 m-4 g-0" style="width: 18rem">
             <img src="./imgs/2.JPG" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <h5 class="card-title">Landing Page</h5>
+
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-          <div class="card" style="width: 18rem">
+          <div class="card col-sm-4 m-4 g-0" style="width: 18rem">
             <img src="./imgs/3.JPG" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <h5 class="card-title">Iguana</h5>
+
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-          <div class="card" style="width: 18rem">
+          <div class="card col-sm-4 m-4 g-0" style="width: 18rem">
             <img src="./imgs/4.JPG" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <h5 class="card-title">Cuppon</h5>
+
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-          <div class="card" style="width: 18rem">
+          <div class="card col-sm-4 m-4 g-0" style="width: 18rem">
             <img src="./imgs/5.JPG" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <h5 class="card-title">Github</h5>
+
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
       </div>
+      <section class="container-fluid text-center bg-light" id="educacion">
+        <h3 class="m-4 pt-4">Educación</h3>
+        <div class="d-flex row">
+          <div class="col-6">
+            <p class="text-end">
+              Universidad Nacional Experimental del Táchira
+            </p>
+          </div>
+          <div class="col-6">
+            <p class="text-start">Ingeniería en Informática</p>
+          </div>
+        </div>
+        <div class="d-flex row">
+          <div class="col-6">
+            <p class="text-end">Scrum.org</p>
+          </div>
+          <div class="col-6">
+            <p class="text-start">Professional Scrum Master</p>
+          </div>
+        </div>
+      </section>
+      <section
+        class="container-fluid text-center bg-dark text-light"
+        id="experiencia"
+      >
+        <h3 class="m-4 pt-4">Experiencia</h3>
+        <div class="d-flex row">
+          <div class="col-6">
+            <p class="text-end">
+              Universidad Nacional Experimental del Táchira
+            </p>
+          </div>
+          <div class="col-6">
+            <p class="text-start">Ingeniería en Informática</p>
+          </div>
+        </div>
+        <div class="d-flex row">
+          <div class="col-6">
+            <p class="text-end">Scrum.org</p>
+          </div>
+          <div class="col-6">
+            <p class="text-start">Professional Scrum Master</p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
       <div class="text-center p-4"><p>Yosmel Vaca Méndez</p></div>
