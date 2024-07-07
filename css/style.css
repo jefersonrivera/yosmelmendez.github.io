@@ -8,3 +8,18 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+.wFull {
+  width: 100%;
+}
+
+.top {
+  top: 0px;
+}
+.fixed {
+  position: fixed;
+}
+
+.z {
+  z-index: 1;
+}
