@@ -10,6 +10,16 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/a3c41c98b1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Yosmel Vaca</title>
   </head>
@@ -33,12 +43,15 @@
             id="navbarNavAltMarkup"
           >
             <div class="navbar-nav">
-              <a class="nav-link" href="#sobremi">Sobre mi</a>
-              <a class="nav-link" aria-current="page" href="#portafolio"
+              <a class="nav-link fw-medium" href="#sobremi">Sobre mi</a>
+              <a
+                class="nav-link fw-medium"
+                aria-current="page"
+                href="#portafolio"
                 >Portafolio</a
               >
-              <a class="nav-link" href="#educacion">Educación</a>
-              <a class="nav-link" href="#experiencia">Experiencia</a>
+              <a class="nav-link fw-medium" href="#educacion">Educación</a>
+              <a class="nav-link fw-medium" href="#experiencia">Experiencia</a>
             </div>
           </div>
         </div>
@@ -50,7 +63,7 @@
         id="sobremi"
       >
         <div
-          class="text-center text-white w-50 fs-5 rounded bg-dark bg-opacity-50"
+          class="text-center text-white col-sm-8 col-md-6 fs-5 rounded bg-dark bg-opacity-50"
         >
           <h1 class="pt-5 fw-medium">Yosmel Vaca Méndez</h1>
           <p class="p-3 fw-light">
@@ -64,15 +77,15 @@
       <div
         class="d-flex container-fluid align-items-center pt-5 pb-5 bg-dark bg-gradient text-light justify-content-center"
       >
-        <div class="text-center col-4">
+        <div class="text-center col-sm-4 col-lg-4">
           <img
             src="./imgs/cv-foto.png"
             alt="foto de curriculum"
             class="img-fluid rounded-circle w-75"
           />
         </div>
-        <div class="text-start col-6">
-          <h3 class="fs-4">Sobre mi</h3>
+        <div class="text-start col-sm-6 col-lg-6">
+          <h3 class="fs-3 fw-bold">Sobre mi</h3>
           <p class="fst-normal">
             Apasionado por el liderazgo y el aprendizaje continuo, me destaco
             por motivar y guiar equipos hacia el éxito, al tiempo que busco
@@ -82,75 +95,34 @@
             innovación.
           </p>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item bg-transparent text-light">Edad: 29</li>
             <li class="list-group-item bg-transparent text-light">
-              yosmelmendez@gmail.com
+              <i class="fa-regular fa-calendar"></i> Edad: 29
             </li>
             <li class="list-group-item bg-transparent text-light">
-              A third item
+              <i class="fa-regular fa-envelope"></i> yosmelmendez@gmail.com
             </li>
             <li class="list-group-item bg-transparent text-light">
-              A fourth item
+              <i class="fa-solid fa-location-dot"></i> Santiago de Chile
             </li>
             <li class="list-group-item bg-transparent text-light">
-              And a fifth one
+              <a
+                href="https://www.linkedin.com/in/yosmel-vaca-mendez"
+                target="_blank"
+                class="text-light"
+                ><i class="fa-brands fa-linkedin fa-2x"></i
+              ></a>
+              <a
+                href="https://github.com/yosmelmendez"
+                target="_blank"
+                class="text-light"
+                ><i class="fa-brands fa-github fa-2x"></i
+              ></a>
             </li>
           </ul>
         </div>
       </div>
-      <div class="container pt-5" id="portafolio">
-        <h3 class="text-center">Portafolio</h3>
-        <div class="row d-flex pt-3 justify-content-center">
-          <div class="card col-sm-4 m-4 g-0" style="width: 18rem">
-            <img src="./imgs/1.JPG" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Mi Curriculum en HTML</h5>
-
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card col-sm-4 m-4 g-0" style="width: 18rem">
-            <img src="./imgs/2.JPG" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Landing Page</h5>
-
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card col-sm-4 m-4 g-0" style="width: 18rem">
-            <img src="./imgs/3.JPG" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Iguana</h5>
-
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card col-sm-4 m-4 g-0" style="width: 18rem">
-            <img src="./imgs/4.JPG" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Cuppon</h5>
-
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card col-sm-4 m-4 g-0" style="width: 18rem">
-            <img src="./imgs/5.JPG" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Github</h5>
-
-              <a
-                href="https://github.com/yosmelmendez/fdsw-github"
-                class="btn btn-primary"
-                target="_blank"
-                >Ir a repositorio</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-
       <section
-        class="container-fluid text-center bg-light pt-5 mt-5 pb-4"
+        class="container-fluid text-center bg-light pt-5 pb-4"
         id="educacion"
       >
         <div class="row g-2">
@@ -237,6 +209,75 @@
           </div>
         </div>
       </section>
+      <div class="container pt-5 pb-4" id="portafolio">
+        <h3 class="text-center fs-3 fw-bold">Portafolio</h3>
+        <div class="row d-flex pt-3 justify-content-center">
+          <div class="card col-sm-4 m-4 g-0" style="width: 18rem">
+            <img src="./imgs/1.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Mi Curriculum en HTML</h5>
+              <a
+                href="https://github.com/yosmelmendez/primer-html"
+                target="_blank"
+                class="btn btn-dark bg-gradient"
+                >Ir a repositorio</a
+              >
+            </div>
+          </div>
+          <div class="card col-sm-4 m-4 g-0" style="width: 18rem">
+            <img src="./imgs/2.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Landing Page</h5>
+
+              <a
+                href="https://github.com/yosmelmendez/landing-page"
+                target="_blank"
+                class="btn btn-dark bg-gradient"
+                >Ir a repositorio</a
+              >
+            </div>
+          </div>
+          <div class="card col-sm-4 m-4 g-0" style="width: 18rem">
+            <img src="./imgs/3.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Iguana</h5>
+
+              <a
+                href="https://github.com/yosmelmendez/iguanas"
+                class="btn btn-dark bg-gradient"
+                target="_blank"
+                >Ir a repositorio</a
+              >
+            </div>
+          </div>
+          <div class="card col-sm-4 m-4 g-0" style="width: 18rem">
+            <img src="./imgs/4.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Cuppon</h5>
+
+              <a
+                href="https://github.com/yosmelmendez/cuppon"
+                target="_blank"
+                class="btn btn-dark bg-gradient"
+                >Ir a repositorio</a
+              >
+            </div>
+          </div>
+          <div class="card col-sm-4 m-4 g-0" style="width: 18rem">
+            <img src="./imgs/5.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Github</h5>
+
+              <a
+                href="https://github.com/yosmelmendez/fdsw-github"
+                class="btn btn-dark bg-gradient"
+                target="_blank"
+                >Ir a repositorio</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="text-center p-3 bg-dark bg-gradient text-light">
