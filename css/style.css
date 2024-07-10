@@ -45,14 +45,7 @@ a:hover {
 .test:hover {
   opacity: 0.7;
 }
-.test2 {
-  height: 100px;
-  width: 100px;
-  background-color: red;
-  position: absolute;
-  top: 0;
-  right: 0px;
-}
+
 .ancho {
   width: 18rem;
 }
